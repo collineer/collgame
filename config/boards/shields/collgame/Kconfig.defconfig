@@ -1,0 +1,6 @@
+if SHIELD_COLLGAME
+
+config ZMK_KEYBOARD_NAME
+    default "collgame"
+
+endif
