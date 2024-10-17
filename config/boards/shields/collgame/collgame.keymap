@@ -36,12 +36,12 @@
         }; 
         
 
-        numpad_layer {
+        function_layer {
             bindings = <
                 &none       &none        &none       &none       &none       &none       &none       
                 &none       &none        &none       &none       &none       &none       &none       
                 &none       &none        &none       &none       &none       &none       
-                &bootloader &out OUT_TOG &none       &trans      &none       
+                &bootloader &out OUT_TOG &none       &none      &none       
             >;
         };
     };
