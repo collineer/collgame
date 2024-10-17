@@ -3,7 +3,7 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/outputs.h>
 
-#define DEFAULT 0
+#define DEF 0
 
 
 
@@ -23,7 +23,7 @@
                 &kp ESC     &kp Q      &kp W      &kp E     &kp R        &kp T     &kp Y
                 &kp TAB     &kp A      &kp S      &kp D     &kp F        &kp G     &kp H
                 &kp LSHIFT  &kp Z      &kp X      &kp C     &kp V        &kp B     
-                &kp LCTRL   &kp LWIN   &kp LALT   &to WIN   &kp SPACE
+                &kp LCTRL   &kp LWIN   &kp LALT   &to DEF   &kp SPACE
             >;
         }; 
         
